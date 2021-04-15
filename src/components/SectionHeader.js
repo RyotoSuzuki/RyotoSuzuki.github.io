@@ -1,9 +1,9 @@
 import Profile from './Profile';
+import classes from './SectionHeader.module.css';
 
 function SectionHeader(props) {
-  console.log(props);
   var letters = props.letters;
 
-  return letters;
+  return <div className={classes.letters}>{letters}</div>;
 }
 export default SectionHeader;
