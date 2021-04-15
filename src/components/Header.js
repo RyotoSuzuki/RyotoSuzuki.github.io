@@ -1,5 +1,4 @@
-import "./App.css";
-import HeaderBackground from "./HeaderBackground";
+import HeaderBackground from './HeaderBackground';
 function Header() {
   return (
     <div>

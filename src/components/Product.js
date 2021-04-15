@@ -1,5 +1,5 @@
 function Product() {
-  return(
+  return (
     <div>
       <h2>Product</h2>
     </div>

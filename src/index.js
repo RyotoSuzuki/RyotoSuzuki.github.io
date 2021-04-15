@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import Header from './Header';
-import Profile from './Profile';
-import Skill from './Skill';
-import Product from './Product';
-import Social from './Social';
+import Header from './components/Header';
+import Profile from './components/Profile';
+import Skill from './components/Skill';
+import Product from './components/Product';
+import Social from './components/Social';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

@@ -1,6 +1,6 @@
-import Java from "./Java";
-import JavaScript from "./JavaScript";
-import Python from "./Python";
+import Java from './Java';
+import JavaScript from './JavaScript';
+import Python from './Python';
 
 function Skill() {
   return (

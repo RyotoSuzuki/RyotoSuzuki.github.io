@@ -1,4 +1,4 @@
-import Particles from "react-particles-js";
+import Particles from 'react-particles-js';
 function HeaderBackground() {
   return (
     <div className="background-animation">
