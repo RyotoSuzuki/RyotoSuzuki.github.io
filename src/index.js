@@ -1,19 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './components/Header';
-import Profile from './components/Profile';
-import Skill from './components/Skill';
-import Product from './components/Product';
-import Social from './components/Social';
+import App from './App';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <Profile />
-    <Skill />
-    <Product />
-    <Social />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
