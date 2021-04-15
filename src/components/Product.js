@@ -1,7 +1,8 @@
+import SectionHeader from './SectionHeader';
 function Product() {
   return (
     <div>
-      <h2>Product</h2>
+      <SectionHeader letters="Product" />
     </div>
   );
 }

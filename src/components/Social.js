@@ -1,7 +1,8 @@
+import SectionHeader from './SectionHeader';
 function Social() {
   return (
     <div>
-      <h2>Social</h2>
+      <SectionHeader letters="Social" />
       <a href="https://github.com/RyotoSuzuki">GitHub</a>
     </div>
   );

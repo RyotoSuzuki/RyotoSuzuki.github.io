@@ -1,11 +1,12 @@
 import Java from './Java';
 import JavaScript from './JavaScript';
 import Python from './Python';
+import SectionHeader from './SectionHeader';
 
 function Skill() {
   return (
     <div>
-      <h2>Skill</h2>
+      <SectionHeader letters="Skill" />
       <Java />
       <JavaScript />
       <Python />
