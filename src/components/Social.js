@@ -1,10 +1,11 @@
-import SectionHeader from './SectionHeader';
+import Layout from '../layouts/Layout';
+
 function Social() {
   return (
-    <div>
-      <SectionHeader letters="Social" />
+    <Layout letters="Social">
       <a href="https://github.com/RyotoSuzuki">GitHub</a>
-    </div>
+    </Layout>
   );
 }
+
 export default Social;

@@ -1,9 +1,5 @@
-import SectionHeader from './SectionHeader';
+import Layout from '../layouts/Layout';
 function Product() {
-  return (
-    <div>
-      <SectionHeader letters="Product" />
-    </div>
-  );
+  return <Layout letters="Product"></Layout>;
 }
 export default Product;

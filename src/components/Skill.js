@@ -1,16 +1,15 @@
 import Java from './Java';
 import JavaScript from './JavaScript';
 import Python from './Python';
-import SectionHeader from './SectionHeader';
+import Layout from '../layouts/Layout.js';
 
 function Skill() {
   return (
-    <div>
-      <SectionHeader letters="Skill" />
+    <Layout letters="Skill">
       <Java />
       <JavaScript />
       <Python />
-    </div>
+    </Layout>
   );
 }
 export default Skill;
