@@ -1,4 +1,3 @@
-import Profile from './Profile';
 import classes from './SectionHeader.module.css';
 
 function SectionHeader(props) {
